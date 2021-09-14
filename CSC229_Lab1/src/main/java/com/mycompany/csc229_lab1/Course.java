@@ -1,7 +1,7 @@
 package com.mycompany.CSC229_Lab1;
 import java.util.Scanner;
 
- class Course {
+ public class Course {
     int ID, Code;
     String Name;
 
@@ -40,7 +40,7 @@ import java.util.Scanner;
         this.Name = Name;
     }
       
-    public static void main(String args[]){
+   public static void main(String args[]){
        
 //Instantiating Course class and assigning default values for members
         Course Course1;
