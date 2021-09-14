@@ -2,6 +2,18 @@ package com.mycompany.CSC229_Lab1;
 import java.util.Scanner;
 
 public class Course {
+
+  //Overloaded Constructor for changing member variables 
+    public Course(int ID, int Code, String Name) {
+        this.ID = ID;
+        this.Code = Code;
+        this.Name = Name;
+    }
+
+  //Default Constructor 
+    public Course() {
+    }
+    
     
     int ID, Code;
     String Name;
@@ -31,6 +43,10 @@ public class Course {
     }
       
     public static void main(String args[]){
+        
+        Course Course1;
+        
+        
         
     }
 
